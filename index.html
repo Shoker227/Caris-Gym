@@ -353,8 +353,9 @@ footer{text-align:center;padding:1.2rem 1rem;padding-bottom:calc(1.2rem + env(sa
     <button class="tab" onclick="switchTab(2,this)">DÍA C</button>
     <button class="tab" onclick="switchTab(3,this)">📚 GUÍA</button>
     <button class="tab" onclick="switchTab(4,this)">⏱ CRONO</button>
-    <button class="tab" onclick="switchTab(5,this)">💊 SUPLEM.</button>
-    <button class="tab" onclick="switchTab(6,this)">📋 CONSEJOS</button>
+    <button class="tab" onclick="switchTab(5,this)">🍱 MENU</button>
+    <button class="tab" onclick="switchTab(6,this)">💊 SUPLEM.</button>
+    <button class="tab" onclick="switchTab(7,this)">📋 CONSEJOS</button>
   </div>
 </div>
 
@@ -511,14 +512,25 @@ footer{text-align:center;padding:1.2rem 1rem;padding-bottom:calc(1.2rem + env(sa
   </div>
 </div>
 
-<!-- SUPLEMENTOS -->
+<!-- MENU -->
 <div class="day-panel" id="panel-5">
+  <div class="shared-section"><div class="shared-header">🍱 MEAL PREP SEMANAL</div><div class="shared-body"><div class="note-list"><div class="note-item">Cocinad 2 veces por semana (ej. domingo y miércoles) y repartid en tuppers para 3–4 días.</div><div class="note-item">Base de cada tupper: <strong>proteína + carbohidrato + verdura</strong>. Cambiad las salsas/especias para no aburriros del mismo sabor.</div><div class="note-item">Cocinad el arroz/pasta/patata sin sal de más y el pollo/pavo a la plancha o al horno — se conservan mejor.</div><div class="note-item">Congelad medias raciones de carne/pescado si compráis en grande, así siempre hay variedad.</div></div></div></div>
+
+  <div class="shared-section"><div class="shared-header" style="color:var(--orange)">🔥 DÍA DE ENTRENO</div><div class="shared-body"><div class="tl-item"><div class="tl-time">DESAYUNO</div><div class="tl-desc">Avena con leche/yogur griego, plátano y un puñado de frutos secos.</div></div><div class="tl-item"><div class="tl-time">COMIDA</div><div class="tl-desc">Pollo o pavo a la plancha + arroz o pasta + verdura al vapor.</div></div><div class="tl-item"><div class="tl-time">PRE-ENTRENO</div><div class="tl-desc">Fruta (plátano o manzana) + un par de tostadas con miel, 60–90 min antes.</div></div><div class="tl-item"><div class="tl-time">POST-ENTRENO</div><div class="tl-desc"><strong>Batido de whey + creatina</strong> nada más terminar.</div></div><div class="tl-item"><div class="tl-time">CENA</div><div class="tl-desc">Pescado o huevos + patata o boniato + ensalada. Cena algo más ligera que la comida.</div></div></div></div>
+
+  <div class="shared-section"><div class="shared-header" style="color:var(--mn)">😌 DÍA DE DESCANSO</div><div class="shared-body"><div class="tl-item"><div class="tl-time">DESAYUNO</div><div class="tl-desc">Huevos revueltos o yogur griego con fruta. Menos carbohidrato que en día de entreno.</div></div><div class="tl-item"><div class="tl-time">COMIDA</div><div class="tl-desc">Carne o legumbres + ración generosa de verdura, carbohidrato más reducido.</div></div><div class="tl-item"><div class="tl-time">MERIENDA</div><div class="tl-desc">Yogur griego o un puñado de frutos secos. Sin prisa, no hay entreno que reponer.</div></div><div class="tl-item"><div class="tl-time">CENA</div><div class="tl-desc">Pescado o tortilla + verdura. La creatina (5 g) se mantiene igual aunque sea día de descanso.</div></div></div></div>
+
+  <div class="shared-section"><div class="shared-header">🛒 LISTA BASE DE LA COMPRA</div><div class="shared-body"><div class="note-list"><div class="note-item">Proteína: pollo, pavo, huevos, pescado blanco, atún, yogur griego.</div><div class="note-item">Carbohidrato: arroz, pasta integral, patata, boniato, avena, pan integral.</div><div class="note-item">Verdura: brócoli, espinacas, pimiento, calabacín, ensalada variada.</div><div class="note-item">Extras: frutos secos, fruta variada, aceite de oliva, especias para variar sabores.</div></div></div></div>
+</div>
+
+<!-- SUPLEMENTOS -->
+<div class="day-panel" id="panel-6">
   <div class="shared-section"><div class="shared-header">💪 PROTEÍNA DE SUERO (WHEY)</div><div class="shared-body"><div class="supp-split"><div class="supp-col"><div class="supp-title" style="color:var(--mg)">🟢 Miguel</div><div class="supp-dose">30–40 g · 1 vez al día</div><div class="tl-item"><div class="tl-time">POST-ENTRENO</div><div class="tl-desc"><strong>1 batido (30–40 g)</strong> en 30–60 min tras el gym.</div></div><div class="tl-item"><div class="tl-time">OBJETIVO</div><div class="tl-desc"><strong>150–180 g/día</strong> entre comida + batido.</div></div></div><div class="supp-col"><div class="supp-title" style="color:var(--mn)">🔵 Manu</div><div class="supp-dose">35–40 g · 1 vez al día</div><div class="tl-item"><div class="tl-time">POST-ENTRENO</div><div class="tl-desc"><strong>1 batido (35–40 g)</strong> en 30–60 min tras el gym.</div></div><div class="tl-item"><div class="tl-time">OBJETIVO</div><div class="tl-desc"><strong>160–190 g/día</strong> (más masa corporal).</div></div></div></div></div></div>
   <div class="shared-section"><div class="shared-header">⚡ CREATINA — IGUAL PARA LOS DOS</div><div class="shared-body"><div class="tl-item"><div class="tl-time">DOSIS</div><div class="tl-desc"><strong>5 g al día</strong>, todos los días incluidos descanso.</div></div><div class="tl-item"><div class="tl-time">CUÁNDO</div><div class="tl-desc">Con el batido post-entreno. <strong>La constancia es lo único que importa.</strong></div></div><div class="tl-item"><div class="tl-time">EN 3–4 SEM.</div><div class="tl-desc">Más fuerza y mejor recuperación. <strong>Beber 2.5–3 L de agua al día.</strong></div></div></div></div>
 </div>
 
 <!-- CONSEJOS -->
-<div class="day-panel" id="panel-6">
+<div class="day-panel" id="panel-7">
   <div class="shared-section"><div class="shared-header">📋 CONSEJOS COMUNES</div><div class="shared-body"><div class="note-list"><div class="note-item">Primeras 2–3 semanas con pesos ligeros para aprender técnica.</div><div class="note-item">Dormir 7–8 horas: el músculo se construye mientras descansas.</div><div class="note-item">Proteína en cada comida: huevos, pollo, atún, legumbres, yogur griego.</div><div class="note-item">Eliminar ultraprocesados y refrescos ya marca una gran diferencia.</div><div class="note-item">Entrenad juntos en las mismas máquinas — solo ajustáis el peso cada uno.</div><div class="note-item">Dolor articular (no agujetas): parar y consultar al monitor de GoFit.</div></div></div></div>
   <div class="shared-section"><div class="shared-header" style="color:var(--mg)">🟢 ESPECÍFICO MIGUEL</div><div class="shared-body"><div class="note-list"><div class="note-item">Con 3 meses de constancia sin faltar verás cambios muy notorios.</div><div class="note-item">Si un día no puedes ir, no te rindas — la semana siguiente vuelves.</div></div></div></div>
   <div class="shared-section"><div class="shared-header" style="color:var(--mn)">🔵 ESPECÍFICO MANU</div><div class="shared-body"><div class="note-list"><div class="note-item">Cuida las rodillas en prensa y step-up: que no se desplacen hacia dentro.</div><div class="note-item">La caminata inclinada es tu mejor aliada — quema grasa sin castigar articulaciones.</div><div class="note-item">Tu cuerpo ya trabaja extra en cada rep — menos carga de la que crees puede ser suficiente.</div></div></div></div>
